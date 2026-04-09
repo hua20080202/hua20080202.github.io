@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>疾病搭配</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-title">日日食療</div>
+  <ul class="nav-links">
+    <li><a href="index.html">首頁</a></li>
+    <li><a href="ingredients.html">食材</a></li>
+    <li><a href="herbs.html">藥材</a></li>
+    <li><a href="diseases.html"class="active">疾病搭配</a></li>
+  </ul>
+</nav>
+<h1 class="page-title">疾病搭配</h1>
+
+<div class="card-container">
+  <div class="card" onclick="openModal('經期不適')">
+    <div class="card-content">
+      <h3>經期不適</h3>
+      <p>症狀：腹痛、腰痠、經血不順</p>
+    </div>
+  </div>
+  
+  <div class="card" onclick="openModal('感冒初期')">
+    <div class="card-content">
+      <h3>感冒初期</h3>
+      <p>症狀：畏寒、流清鼻水、喉嚨微癢</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('腸胃虛弱')">
+    <div class="card-content">
+      <h3>腸胃虛弱</h3>
+      <p>症狀：食慾不振、腹脹、容易腹瀉</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('慢性胃炎')">
+    <div class="card-content">
+      <h3>慢性胃炎</h3>
+      <p>症狀：左上腹部脹痛、隱痛、胃口差</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('慢性支氣管炎')">
+    <div class="card-content">
+      <h3>慢性支氣管炎</h3>
+      <p>症狀：咳嗽、痰呈白色黏液、秋冬更嚴重、</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('高血壓')">    
+    <div class="card-content">
+      <h3>高血壓</h3>
+      <p>定義：收縮壓/舒張壓高於135/90mmHg</p>
+      <p>症狀：眩暈、頭痛、失眠</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('貧血')">
+    <div class="card-content">
+      <h3>貧血</h3>
+      <p>症狀：面黃/白、嘴唇指甲蒼白、頭暈眼花、乏力</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('中風後遺症')">
+    <div class="card-content">
+      <h3>中風後遺症</h3>
+      <p>症狀：半身不遂、手足癱瘓、語言不利、眼歪嘴斜</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('阿茲海默症')">
+    <div class="card-content">
+      <h3>阿茲海默症</h3>
+      <p>症狀：記憶喪失、情緒性格改變、行為改變</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('痛風')">
+    <div class="card-content">
+      <h3>痛風</h3>
+      <p>症狀：肢體關節疼痛</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('糖尿病')">
+    <div class="card-content">
+      <h3>糖尿病</h3>
+      <p>症狀：多飲多食多尿、消瘦</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('肺癌')">
+    <div class="card-content">
+      <h3>肺癌</h3>
+      <p>症狀：初期咳嗽帶痰(有血絲);晚期出現胸悶胸痛、氣喘</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('乳癌')">
+    <div class="card-content">
+      <h3>乳癌</h3>
+      <p>症狀：乳房出現腫塊、凹陷、出血、有分泌物</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openModal('腸癌')">
+    <div class="card-content">
+      <h3>腸癌</h3>
+      <p>症狀：早期腹部脹悶痛、便祕、腹瀉交替;晚期大便失禁、貧血、體重明顯下降</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- 彈出視窗 -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <div id="modal-text"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

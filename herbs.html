@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>藥材介紹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-title">日日食療</div>
+  <ul class="nav-links">
+    <li><a href="index.html">首頁</a></li>
+    <li><a href="ingredients.html">食材</a></li>
+    <li><a href="herbs.html" class="active">藥材</a></li>
+    <li><a href="diseases.html">疾病搭配</a></li>
+  </ul>
+</nav>
+<h1 class="page-title">藥材介紹</h1>
+
+<!-- 補氣類 -->
+<h2 class="category-title">補氣類藥材</h2>
+<div class="card-container">
+  <div class="card" onclick="openModal('太子參')">
+    <img src="images/bai_zhu.jpg">
+    <h3>太子參</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('人參')">
+    <img src="images/bai_zhu.jpg">
+    <h3>人參</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('西洋參')">
+    <img src="images/bai_zhu.jpg">
+    <h3>西洋參</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('黨參')">
+    <img src="images/bai_zhu.jpg">
+    <h3>黨參</h3>
+  </div>
+    
+  <div class="card" onclick="openModal('黃耆')">
+    <img src="images/bai_zhu.jpg">
+    <h3>黃耆</h3>
+  </div>
+
+  <div class="card" onclick="openModal('山藥')">
+    <img src="images/red_date.jpg">
+    <h4>山藥</h4>
+  </div>
+
+  <div class="card" onclick="openModal('白术')">
+    <img src="images/dang_gui.jpg">
+    <h3>白术</h3>
+  </div>
+
+  <div class="card" onclick="openModal('茯苓')">
+    <img src="images/huang_qi.jpg">
+    <h3>茯苓</h3>
+  </div>
+
+  <div class="card" onclick="openModal('紅棗')">
+    <img src="images/gui_zhi.jpg">
+    <h3>紅棗</h3>
+  </div>
+</div>
+
+<!-- 補血類 -->
+<h2 class="category-title">補血類藥材</h2>
+<div class="card-container">
+  <div class="card" onclick="openModal('熟地黃')">
+    <img src="images/bai_zhu.jpg">
+    <h3>熟地黃</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('當歸')">
+    <img src="images/dang_gui.jpg">
+    <h3>當歸</h3>
+  </div>
+
+  <div class="card" onclick="openModal('生地黃')">
+    <img src="images/bai_zhu.jpg">
+    <h3>生地黃</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('製何首烏')">
+    <img src="images/bai_zhu.jpg">
+    <h3>製何首烏</h3>
+  </div>
+
+  <div class="card" onclick="openModal('阿膠')">
+    <img src="images/bai_zhu.jpg">
+    <h3>阿膠</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('longan')">
+    <img src="images/longan.jpg">
+    <h4>桂圓</h4>
+  </div>
+</div>
+
+<!-- 助陽類 -->
+<h2 class="category-title">助陽類藥材</h2>
+<div class="card-container">
+  <div class="card" onclick="openModal('鹿茸')">
+    <img src="images/chrysanthemum.jpg">
+    <h3>鹿茸</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('冬蟲夏草')">
+    <img src="images/bai_zhu.jpg">
+    <h3>冬蟲夏草</h3>
+  </div>
+
+  <div class="card" onclick="openModal('巴戟天')">
+    <img src="images/bai_zhu.jpg">
+    <h3>巴戟天</h3>
+  </div>
+
+  <div class="card" onclick="openModal('淫羊藿')">
+    <img src="images/bai_zhu.jpg">
+    <h3>淫羊藿</h3>
+  </div>
+
+  <div class="card" onclick="openModal('杜仲')">
+    <img src="images/">
+    <h3>杜仲</h3>
+  </div>
+
+  <div class="card" onclick="openModal('胡桃')">
+    <img src="images/bai_zhu.jpg">
+    <h3>胡桃</h3>
+  </div> 
+  
+  <div class="card" onclick="openModal('桂枝')">
+    <img src="images/bai_zhu.jpg">
+    <h3>桂枝</h3>
+  </div>
+</div>
+
+<!--滋陰類  -->
+<h2 class="category-title">滋陰類藥材</h2>
+<div class="card-container">
+  <div class="card" onclick="openModal('北沙參')">
+    <img src="images/bai_zhu.jpg">
+    <h3>北沙參</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('玉竹')">
+    <img src="images/bai_zhu.jpg">
+    <h3>玉竹</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('石斛')">
+    <img src="images/bai_zhu.jpg">
+    <h3>石斛</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('百合')">
+    <img src="images/bai_zhu.jpg">
+    <h3>百合</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('桑葚')">
+    <img src="images/bai_zhu.jpg">
+    <h3>桑葚</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('黑芝麻')">
+    <img src="images/bai_zhu.jpg">
+    <h3>黑芝麻</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('枸杞')">
+    <img src="images/goji.jpg">
+    <h3>枸杞</h3>
+  </div>
+</div>
+
+<!-- 其他 -->
+<h2 class="category-title">其他藥材</h2>
+<div class="card-container">
+  <div class="card" onclick="openModal('葛根')">
+    <img src="images/goji.jpg">
+    <h3>葛根</h3>
+  </div>
+
+  <div class="card" onclick="openModal('靈芝')">
+    <img src="images/goji.jpg">
+    <h3>靈芝</h3>
+  </div>
+
+  <div class="card" onclick="openModal('薏仁')">
+    <img src="images/goji.jpg">
+    <h3>薏仁</h3>
+  </div>
+
+  <div class="card" onclick="openModal('杏仁')">
+    <img src="images/goji.jpg">
+    <h3>杏仁</h3>
+  </div>
+
+  <div class="card" onclick="openModal('山楂')">
+    <img src="images/goji.jpg">
+    <h3>山楂</h3>
+  </div>
+
+  <div class="card" onclick="openModal('銀杏')">
+    <img src="images/goji.jpg">
+    <h3>銀杏</h3>
+  </div>
+
+  <div class="card" onclick="openModal('蓮子')">
+    <img src="images/goji.jpg">
+    <h3>蓮子</h3>
+  </div>
+
+  <div class="card" onclick="openModal('薄荷')">
+    <img src="images/goji.jpg">
+    <h3>薄荷</h3>
+  </div>
+
+  <div class="card" onclick="openModal('杭菊')">
+    <img src="images/goji.jpg">
+    <h3>杭菊</h3>
+  </div>
+
+  <div class="card" onclick="openModal('天花粉')">
+    <img src="images/goji.jpg">
+    <h3>天花粉</h3>
+  </div>
+
+  <div class="card" onclick="openModal('夏枯草')">
+    <img src="images/goji.jpg">
+    <h3>夏枯草</h3>
+  </div>
+
+  <div class="card" onclick="openModal('苦參')">
+    <img src="images/goji.jpg">
+    <h3>苦參</h3>
+  </div>
+
+  <div class="card" onclick="openModal('金銀花')">
+    <img src="images/goji.jpg">
+    <h3>金銀花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('玄參')">
+    <img src="images/goji.jpg">
+    <h3>玄參</h3>
+  </div>
+
+  <div class="card" onclick="openModal('枸杞')">
+    <img src="images/goji.jpg">
+    <h3>火麻仁</h3>
+  </div>
+
+  <div class="card" onclick="openModal('陳皮')">
+    <img src="images/goji.jpg">
+    <h3>陳皮</h3>
+  </div>
+
+  <div class="card" onclick="openModal('羅漢果')">
+    <img src="images/goji.jpg">
+    <h3>羅漢果</h3>
+  </div>
+
+  <div class="card" onclick="openModal('枸杞')">
+    <img src="images/goji.jpg">
+    <h3>茨實</h3>
+  </div>
+
+  <div class="card" onclick="openModal('土茯苓')">
+    <img src="images/goji.jpg">
+    <h3>土茯苓</h3>
+  </div>
+
+  <div class="card" onclick="openModal('佛手')">
+    <img src="images/goji.jpg">
+    <h3>佛手</h3>
+  </div>
+
+  <div class="card" onclick="openModal('玫瑰花')">
+    <img src="images/goji.jpg">
+    <h3>玫瑰花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('桂花')">
+    <img src="images/goji.jpg">
+    <h3>桂花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('茉莉花')">
+    <img src="images/goji.jpg">
+    <h3>茉莉花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('神麯')">
+    <img src="images/goji.jpg">
+    <h3>神麯</h3>
+  </div>
+
+  <div class="card" onclick="openModal('麥芽')">
+    <img src="images/goji.jpg">
+    <h3>麥芽</h3>
+  </div>
+
+  <div class="card" onclick="openModal('雞內金')">
+    <img src="images/goji.jpg">
+    <h3>雞內金</h3>
+  </div>
+
+  <div class="card" onclick="openModal('素馨花')">
+    <img src="images/goji.jpg">
+    <h3>素馨花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('槐花')">
+    <img src="images/goji.jpg">
+    <h3>槐花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('紅花')">
+    <img src="images/goji.jpg">
+    <h3>紅花</h3>
+  </div>
+
+  <div class="card" onclick="openModal('田七')">
+    <img src="images/goji.jpg">
+    <h3>田七</h3>
+  </div>
+
+  <div class="card" onclick="openModal('白及')">
+    <img src="images/goji.jpg">
+    <h3>白及</h3>
+  </div>
+
+  <div class="card" onclick="openModal('桃仁')">
+    <img src="images/goji.jpg">
+    <h3>桃仁</h3>
+  </div>
+
+  <div class="card" onclick="openModal('枇杷葉')">
+    <img src="images/goji.jpg">
+    <h3>枇杷葉</h3>
+  </div>
+
+  <div class="card" onclick="openModal('瓜蔞')">
+    <img src="images/goji.jpg">
+    <h3>瓜蔞</h3>
+  </div>
+
+  <div class="card" onclick="openModal('蘇子')">
+    <img src="images/goji.jpg">
+    <h3>蘇子</h3>
+  </div>
+
+  <div class="card" onclick="openModal('夜交藤')">
+    <img src="images/goji.jpg">
+    <h3>夜交藤</h3>
+  </div>
+
+  <div class="card" onclick="openModal('全蝎')">
+    <img src="images/goji.jpg">
+    <h3>全蝎</h3>
+  </div>
+
+  <div class="card" onclick="openModal('五味子')">
+    <img src="images/goji.jpg">
+    <h3>五味子</h3>
+  </div>
+
+  <div class="card" onclick="openModal('烏梅')">
+    <img src="images/goji.jpg">
+    <h3>烏梅</h3>
+  </div>
+  
+  <div class="card" onclick="openModal('露蜂房')">
+    <img src="images/goji.jpg">
+    <h3>露蜂房</h3>
+  </div>
+
+  <div class="card" onclick="openModal('益母草')">
+    <img src="images/goji.jpg">
+    <h3>益母草</h3>
+  </div>
+
+  <div class="card" onclick="openModal('菟絲子')">
+    <img src="images/goji.jpg">
+    <h3>菟絲子</h3>
+  </div>
+</div>
+
+
+<!-- 彈出視窗 -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <div id="modal-text"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

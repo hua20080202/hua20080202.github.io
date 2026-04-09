@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>食材介紹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-title">日日食療</div>
+  <ul class="nav-links">
+    <li><a href="index.html">首頁</a></li>
+    <li><a href="ingredients.html" class="active">食材</a></li>
+    <li><a href="herbs.html">藥材</a></li>
+    <li><a href="diseases.html">疾病搭配</a></li>
+  </ul>
+</nav>
+<h1 class="page-title">食材介紹</h1>
+
+<!-- 熱性 -->
+<h2 class="category-title">熱性食材</h2>
+<h3 class="ingredients-type">蔬菜類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('辣椒')">
+    <img src="images/辣椒.png">
+    <h4>辣椒</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">其他類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('胡椒')">
+    <img src="images/胡椒.png">
+    <h4>胡椒</h4>
+  </div>
+</div>
+
+<!-- 溫性 -->
+<h2 class="category-title">溫性食材</h2>
+<h3 class="ingredients-type">豆穀類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('糯米')">
+    <img src="images/糯米.png">
+    <h4>糯米</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">蔬菜類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('韭菜')">
+    <img src="images/韭菜.png">
+    <h4>韭菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('洋蔥')">
+    <img src="images/洋蔥.png">
+    <h4>洋蔥</h4>
+  </div>
+
+  <div class="card" onclick="openModal('生薑')">
+    <img src="images/生薑.png">
+    <h4>生薑</h4>
+  </div>
+
+  <div class="card" onclick="openModal('蔥')">
+    <img src="images/蔥.png">
+    <h4>蔥</h4>
+  </div>
+
+  <div class="card" onclick="openModal('大蒜')">
+    <img src="images/大蒜.png">
+    <h4>大蒜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('香菜')">
+    <img src="images/香菜.png">
+    <h4>香菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('南瓜')">
+    <img src="images/南瓜.png">
+    <h4>南瓜</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">瓜果類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('金桔')">
+    <img src="images/金桔.png">
+    <h4>金桔</h4>
+  </div>
+
+  <div class="card" onclick="openModal('荔枝')">
+    <img src="images/荔枝.png">
+    <h4>荔枝</h4>
+  </div>
+
+  <div class="card" onclick="openModal('栗子')">
+    <img src="images/栗子.png">
+    <h4>栗子</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">肉類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('豬肚')">
+    <img src="images/豬肚.png">
+    <h4>豬肚</h4>
+  </div>
+
+  <div class="card" onclick="openModal('豬肝')">
+    <img src="images/豬肝.jpg">
+    <h4>豬肝</h4>
+  </div>
+
+  <div class="card" onclick="openModal('黃牛肉')">
+    <img src="images/ginger.jpg">
+    <h4>黃牛肉</h4>
+  </div>
+
+  <div class="card" onclick="openModal('羊肉')">
+    <img src="images/ginger.jpg">
+    <h4>羊肉</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('雞肉')">
+    <img src="images/ginger.jpg">
+    <h4>雞肉</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">水產類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('蝦')">
+    <img src="images/ginger.jpg">
+    <h4>蝦</h4>
+  </div>
+  <div class="card" onclick="openModal('鱸魚')">
+    <img src="images/ginger.jpg">
+    <h4>鱸魚</h4>
+  </div>
+  <div class="card" onclick="openModal('鱔魚')">
+    <img src="images/ginger.jpg">
+    <h4>鱔魚</h4>
+  </div>
+  <div class="card" onclick="openModal('淡菜')">
+    <img src="images/ginger.jpg">
+    <h4>淡菜</h4>
+  </div>
+</div>
+<h3 class="ingredients-type">其他類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('黑糖')">
+    <img src="images/ginger.jpg">
+    <h4>黑糖</h4>
+  </div>
+  <div class="card" onclick="openModal('醋')">
+    <img src="images/ginger.jpg">
+    <h4>醋</h4>
+  </div>
+  <div class="card" onclick="openModal('茴香')">
+    <img src="images/ginger.jpg">
+    <h4>茴香</h4>
+  </div>
+  <div class="card" onclick="openModal('花椒')">
+    <img src="images/ginger.jpg">
+    <h4>花椒</h4>
+  </div>
+  <div class="card" onclick="openModal('紅茶')">
+    <img src="images/ginger.jpg">
+    <h4>紅茶</h4>
+  </div>
+</div>
+
+<!-- 平性 -->
+<h2 class="category-title">平性食材</h2>
+<h3 class="ingredients-type">豆穀類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('米')">
+    <img src="images/米.jpg">
+    <h4>米</h4>
+  </div>
+
+  <div class="card" onclick="openModal('玉米')">
+    <img src="images/玉米.avif">
+    <h4>玉米</h4>
+  </div>
+
+  <div class="card" onclick="openModal('紅豆')">
+    <img src="images/紅豆.jpg">
+    <h4>紅豆</h4>
+  </div>
+
+  <div class="card" onclick="openModal('豌豆')">
+    <img src="images/豌豆.jpg">
+    <h4>豌豆</h4>
+  </div>
+
+  <div class="card" onclick="openModal('扁豆')">
+    <img src="images/扁豆.jpg">
+    <h4>扁豆</h4>
+  </div>
+
+  <div class="card" onclick="openModal('黑豆')">
+    <img src="images/黑豆.jpg">
+    <h4>黑豆</h4>
+  </div>
+
+  <div class="card" onclick="openModal('黃豆')">
+    <img src="images/黃豆.jpg">
+    <h4>黃豆</h4>
+  </div>
+</div>
+
+<h3 class="ingredients-type">蔬菜類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('yam')">
+    <img src="images/yam.jpg">
+    <h4>高麗菜</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('lotus_seed')">
+    <img src="images/lotus_seed.jpg">
+    <h4>茼蒿
+    </h4>
+  </div>
+
+  <div class="card" onclick="openModal('yam')">
+    <img src="images/yam.jpg">
+    <h4>紅蘿蔔</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('lotus_seed')">
+    <img src="images/lotus_seed.jpg">
+    <h4>芋頭</h4>
+  </div>
+
+  <div class="card" onclick="openModal('yam')">
+    <img src="images/yam.jpg">
+    <h4>地瓜</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('lotus_seed')">
+    <img src="images/lotus_seed.jpg">
+    <h4>馬鈴薯</h4>
+  </div>
+
+  <div class="card" onclick="openModal('yam')">
+    <img src="images/yam.jpg">
+    <h4>黑木耳</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('lotus_seed')">
+    <img src="images/lotus_seed.jpg">
+    <h4>銀耳/白木耳</h4>
+  </div>
+
+  <div class="card" onclick="openModal('yam')">
+    <img src="images/yam.jpg">
+    <h4>香菇</h4>
+  </div>
+  
+  <div class="card" onclick="openModal('lotus_seed')">
+    <img src="images/lotus_seed.jpg">
+    <h4>猴頭菇</h4>
+  </div>
+</div>
+<h3 class="ingredients-type">瓜果類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('檸檬')">
+    <img src="images/lotus_seed.jpg">
+    <h4>檸檬</h4>
+  </div>
+</div>
+
+<!-- 涼性 -->
+<h2 class="category-title">涼性食材</h2>
+<h3 class="ingredients-type">豆穀類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('大麥')">
+    <img src="images/大麥.jpg">
+    <h4>大麥</h4>
+  </div>
+
+  <div class="card" onclick="openModal('小麥')">
+    <img src="images/小麥.jpeg">
+    <h4>小麥</h4>
+  </div>
+
+  <div class="card" onclick="openModal('小米')">
+    <img src="images/小米.jpg">
+    <h4>小米</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>豆腐</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>白菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>芹菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>莧菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>枸杞葉</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>菠菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>金針花</h4>
+  </div>
+
+  <div class="card" onclick="openModal('radish')">
+    <img src="images/radish.jpg">
+    <h4>白蘿蔔</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>冬瓜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>絲瓜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>茄子</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>蘑菇</h4>
+  </div>
+</div>
+
+<!-- 寒性 -->
+<h2 class="category-title">寒性食材</h2>
+<h3 class="ingredients-type">豆穀類</h3>
+<div class="card-container">
+  <div class="card" onclick="openModal('黃豆芽')">
+    <img src="images/黃豆芽.jpg">
+    <h4>黃豆芽</h4>
+  </div>
+
+  <div class="card" onclick="openModal('綠豆')">
+    <img src="images/綠豆.jpg">
+    <h4>綠豆</h4>
+  </div>
+
+  <div class="card" onclick="openModal('綠豆芽')">
+    <img src="images/綠豆芽.jpg">
+    <h4>綠豆芽</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>蘆筍</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>空心菜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>竹筍</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>蓮藕</h4>
+  </div>
+
+  <div class="card" onclick="openModal('radish')">
+    <img src="images/radish.jpg">
+    <h4>黃瓜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>苦瓜</h4>
+  </div>
+
+  <div class="card" onclick="openModal('lotus_root')">
+    <img src="images/lotus_root.jpg">
+    <h4>番茄</h4>
+  </div>
+</div>
+
+<!-- 彈出視窗 -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <div id="modal-text"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
